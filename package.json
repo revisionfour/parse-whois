@@ -1,0 +1,29 @@
+{
+  "name": "parse-whois",
+  "version": "1.0.0",
+  "description": "A small module for parsing the output string of a WhoIs lookup into an Array of JSON objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revisionfour/parse-whois.git"
+  },
+  "keywords": [
+    "parse",
+    "whois",
+    "json"
+  ],
+  "author": "Chris Lee <leec85@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/revisionfour/parse-whois/issues"
+  },
+  "homepage": "https://github.com/revisionfour/parse-whois#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "node-whois": "^2.1.3"
+  }
+}
