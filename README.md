@@ -1,7 +1,7 @@
 parse-whois
 =========
 
-Parses WhoIs lookup data from a text string to an Array of JSON object
+Parses WhoIs lookup data from a text string to an Array of JSON objects
 
 ## Installation
 
@@ -11,7 +11,7 @@ Parses WhoIs lookup data from a text string to an Array of JSON object
 
 ## Usage
 
-data is the raw out
+data is the raw output from a WhoIs lookup
 
 ```js
 	var parser = require('parse-whois');
