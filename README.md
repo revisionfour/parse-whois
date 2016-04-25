@@ -22,7 +22,7 @@ data is the raw output from a WhoIs lookup
 
 		console.log(data);
 
-		console.log(parser.parseWhoIsData(data));
+		console.log(JSON.stringify(parser.parseWhoIsData(data)));
 	});
 
 ```

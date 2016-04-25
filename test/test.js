@@ -13,10 +13,9 @@ describe('Array',function(){
 
 				console.log(data);
 
-				console.log(parseWhoIsData(data));
+				console.log(JSON.stringify(parseWhoIsData(data)));
 
 				done();
-
 			});
 
 		});

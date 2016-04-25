@@ -19,8 +19,8 @@ module.exports = {
 
 			if(attr !== ''){
 				returnArray.push({
-					attribute: attr,
-					value: part.substr(attrColon+1).trim()
+					"attribute": attr,
+					"value": part.substr(attrColon+1).trim()
 				});
 			}
 			else{
@@ -29,8 +29,8 @@ module.exports = {
 		});
 
 		returnArray.push({
-			attribute: 'End Text',
-			value: tempStr
+			"attribute": "End Text",
+			"value": tempStr
 		});
 
 		return returnArray;
